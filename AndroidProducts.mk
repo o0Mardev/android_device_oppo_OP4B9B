@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_CPH1861.mk
+     $(LOCAL_DIR)/twrp_CPH2021.mk

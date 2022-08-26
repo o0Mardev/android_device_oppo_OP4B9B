@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/oppo/CPH1861
+LOCAL_PATH := device/oppo/CPH2021
 
