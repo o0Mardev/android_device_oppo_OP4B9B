@@ -1,0 +1,28 @@
+subsystem adf
+	devname uevent_devname
+
+#RunSheng.Pei@PSW.AD.BaseConfig.1140185, 2016/08/30, add for different platforms's reserve partition permission config:
+
+#Canjie.Zheng add for critical log
+/dev/block/platform/bootdevice/by-name/reserve2               0660   system     system
+#Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/10/17, Add for reserve partition
+/dev/block/by-name/reserve2               0660   system     system
+/dev/block/mmcblk0p5   0660   system     system
+
+#Runsheng.Pei add provide a function to indentify the usage of the phone.
+/dev/block/platform/bootdevice/by-name/reserve4               0660   system     system
+#Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/10/17, Add for reserve partition
+/dev/block/by-name/reserve4               0660   system     system
+/dev/block/mmcblk0p7   0660    system  system
+
+#yanyin add for findmyphone, OppoSimSettings
+/dev/block/platform/bootdevice/by-name/reserve1 0660 system system
+#Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/10/17, Add for reserve partition
+/dev/block/by-name/reserve1               0660   system     system
+/dev/block/mmcblk0p4 0660 system system
+
+#Jinke.zhou modify for engineermode to access by-name/reserve_exp1
+/dev/block/platform/bootdevice/by-name/reserve_exp1              0660   system     radio
+#Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/10/17, Add for reserve partition
+/dev/block/by-name/reserve_exp1               0660   system     radio
+/dev/block/mmcblk0p 0660   system     radio
