@@ -97,7 +97,7 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TARGET_USES_LOGD := true
-TW_THEME := portrait_xxhdpi
+TW_THEME := portrait_hdpi
 TW_EXCLUDE_APEX := true
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
