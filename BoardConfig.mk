@@ -50,8 +50,8 @@ BOARD_HASH_TYPE := sha1
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 
-#BOARD_INCLUDE_RECOVERY_DTBO := true
-#BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
+BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_PREBUILT_DTBOIMAGE := $(LOCAL_PATH)/prebuilt/recovery_stock.img-recovery_dtbo
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/recovery.img-kernel
