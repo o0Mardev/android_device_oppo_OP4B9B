@@ -1,8 +1,10 @@
 # Platform
 TARGET_BOARD_PLATFORM := mt6771
 
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := oppo6771
+
 
 # Architecture
 TARGET_ARCH := arm64
@@ -16,6 +18,7 @@ TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
+
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
@@ -52,6 +55,7 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.87.36
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
+
 # TWRP flags
 TW_THEME := portrait_hdpi
 TW_EXCLUDE_DEFAULT_USB_INIT := true
@@ -62,13 +66,19 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_USES_MKE2FS := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone3/temp
 
+
 # Statusbar icons flags
 TW_STATUS_ICONS_ALIGN := center
 TW_CUSTOM_CPU_POS := 50
 TW_CUSTOM_CLOCK_POS := 300
 TW_CUSTOM_BATTERY_POS := 800
 
+
 # Debugging
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
+
+# Decryption
+RECOVERY_SDCARD_ON_DATA := true
+TW_INCLUDE_CRYPTO := true
