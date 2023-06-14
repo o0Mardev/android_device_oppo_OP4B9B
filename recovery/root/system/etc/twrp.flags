@@ -1,11 +1,7 @@
 /recovery        emmc    /dev/block/by-name/recovery
 /boot            emmc    /dev/block/by-name/boot
-
 /cache           ext4    /dev/block/by-name/cache
-/persist         ext4    /dev/block/by-name/persist
-
 /system_image    emmc    /dev/block/by-name/system
-/vendor_image    emmc    /dev/block/by-name/vendor
 
 # Removable storage
 /external_sd     auto    /dev/block/mmcblk0p1    /dev/block/mmcblk0
