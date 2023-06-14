@@ -1,4 +1,4 @@
-Test branch for decryption \
+Test branch for decryption
 
 Unofficial TWRP for Oppo A91 (CPH2021) running Android 11.\
 This recovery should work also on the Oppo F15 (CPH2001) as it's a rebranded A91.
