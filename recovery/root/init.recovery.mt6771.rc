@@ -67,7 +67,7 @@ service keymaster-3-0 /system/bin/android.hardware.keymaster@3.0-service.truston
     disabled
     seclabel u:r:recovery:s0
 
-service gatekeeperd /system/bin/gatekeeperd
+service gatekeeperd /system/bin/gatekeeperd /data/misc/gatekeeper
     user root
     group root
     disabled
