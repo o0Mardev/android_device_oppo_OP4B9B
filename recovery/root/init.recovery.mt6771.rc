@@ -62,8 +62,6 @@ service mobicore /vendor/bin/mcDriverDaemon --P1 /mnt/vendor/persist/mcRegistry 
     seclabel u:r:recovery:s0
 
 service keymaster-3-0 /system/bin/android.hardware.keymaster@3.0-service.trustonic
-    interface android.hardware.keymaster@3.0::IKeymasterDevice default
-    class early_hal
     user root
     group root drmrpc
     disabled
