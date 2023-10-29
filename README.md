@@ -1,5 +1,5 @@
 Unofficial TWRP for Oppo A91 (CPH2021) running Android 11. \
-This recovery should work also on the Oppo F15 (CPH2001) as it's a rebranded A91. \
+This recovery works also on the Oppo F15 (CPH2001) as it's a rebranded A91. \
 <b>IMPORTANT it appears that recovery does not work on the PCPM00 model.</b>
 
 For more informations consults the [xda forum](https://forum.xda-developers.com/t/recovery-unofficial-twrp-for-oppo-a91.4600477/)
